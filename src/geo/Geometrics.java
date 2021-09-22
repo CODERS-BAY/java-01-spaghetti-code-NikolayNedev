@@ -5,12 +5,6 @@ import java.util.Scanner;
 public class Geometrics {
 
     public static void main(String[] args) {
-
-
-
-       square();
-       rectangle();
-
     
     }
     public static int calculateSquareArea(int x, int y) {
@@ -29,18 +23,18 @@ public class Geometrics {
         int sum = x2 * x2;
         return sum;
     }
-    public static int calculateZoneSphere(double v) {
+    public static double calculateZoneSphere(double z, double y , double x) {
         System.out.println("Zone of a sphere");
-         v = (Math.PI * z * (3 * Math.pow(y, 2) + 3 * Math.pow(x, 2) + Math.pow(z, 2))) / 6;
-        return v;
+        return (Math.PI * z * (3 * Math.pow(y, 2) + 3 * Math.pow(x, 2) + Math.pow(z, 2))) / 6;
+        
     }
-    public static int  calculateSphereCylinder(int x) {
-        x = (Math.PI * Math.pow(z, 3) / 6);
-        return x;
+    public static double calculateSphereCylinder(double z)  {
+        return (Math.PI * Math.pow(z, 3) / 6);
+        
     }
-    public static int calculateUngula(double x){
-         x =((double) (2 * x3 * z3) / 3);
-         return x;
+    public static double calculateUngula(double x, double z){
+         return ((double) (2 * x * z) / 3);
+         
     }
 
 }
