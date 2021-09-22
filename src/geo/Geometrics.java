@@ -2,7 +2,7 @@ package geo;
 public class Geometrics {
 
     public static void main(String[] args) {
-    
+        
     }
     public static double calculateSquareArea(double x) {
         double sum = x * x;
@@ -21,7 +21,6 @@ public class Geometrics {
         return sum;
     }
     public static double calculateZoneSphere(double z, double y , double x) {
-        System.out.println("Zone of a sphere");
         return (Math.PI * z * (3 * Math.pow(y, 2) + 3 * Math.pow(x, 2) + Math.pow(z, 2))) / 6;
         
     }
