@@ -1,7 +1,4 @@
 package geo;
-
-import java.util.Scanner;
-
 public class Geometrics {
 
     public static void main(String[] args) {
@@ -33,8 +30,7 @@ public class Geometrics {
         
     }
     public static double calculateUngula(double x, double z){
-         return ((double) (2 * x * z) / 3);
-         
+        return ((double) (2 * x * z) / 3);
     }
 
 }
