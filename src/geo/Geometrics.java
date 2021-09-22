@@ -4,20 +4,20 @@ public class Geometrics {
     public static void main(String[] args) {
     
     }
-    public static int calculateSquareArea(int x, int y) {
-        int sum = x * y;
+    public static double calculateSquareArea(double x) {
+        double sum = x * x;
         return sum;
     }
-    public static int calculatePerimeterArea(int x){
-        int sum = 4 * x;
+    public static double calculatePerimeterArea(double x){
+        double sum = 4 * x;
         return sum;
     }
-    public static int calculateRectangleArea(int x){
+    public static double calculateRectangleArea(double x, double y){
+        double sum = x * y;
+        return sum;
+    }
+    public static int calculateVolumes(int x){
         int sum = x * x;
-        return sum;
-    }
-    public static int calculateVolumes(int x2){
-        int sum = x2 * x2;
         return sum;
     }
     public static double calculateZoneSphere(double z, double y , double x) {
@@ -29,8 +29,8 @@ public class Geometrics {
         return (Math.PI * Math.pow(z, 3) / 6);
         
     }
-    public static double calculateUngula(double x, double z){
-        return ((double) (2 * x * z) / 3);
+    public static double calculateUngula(int x, int z){
+           return ((double) (2 * x * z) / 3);
     }
 
 }
